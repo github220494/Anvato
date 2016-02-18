@@ -1,2 +1,0 @@
-
-curl  -A "Mozilla/5.0 (Linux; Android 4.1.1; Galaxy Nexus Build/JRO03C) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.166 Mobile Safari/535.19" -e "http://www.anvato.com/candidates/Galina"  -X GET https://s3.amazonaws.com/anvato-resumes/candidates/2016_02/Galina_56c3a502af6fe
