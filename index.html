@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="description" content="Anvato Hidden Email : ">
+
+    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+
+    <title>Anvato Hidden Email</title>
+  </head>
+
+  <body>
+
+    <!-- HEADER -->
+    <div id="header_wrap" class="outer">
+        <header class="inner">
+          <a id="forkme_banner" href="https://github.com/github220494/Anvato">View on GitHub</a>
+
+          <h1 id="project_title">Anvato Hidden Email</h1>
+          <h2 id="project_tagline"></h2>
+
+            <section id="downloads">
+              <a class="zip_download_link" href="https://github.com/github220494/Anvato/zipball/master">Download this project as a .zip file</a>
+              <a class="tar_download_link" href="https://github.com/github220494/Anvato/tarball/master">Download this project as a tar.gz file</a>
+            </section>
+        </header>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <div id="main_content_wrap" class="outer">
+      <section id="main_content" class="inner">
+        <h2>
+<a id="here-is-the-path-to-the-instructions" class="anchor" href="#here-is-the-path-to-the-instructions" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Here is the path to the instructions</h2>
+
+<p>curl  -A "Mozilla/5.0 (Linux; Android 4.1.1; Galaxy Nexus Build/JRO03C) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.166 Mobile Safari/535.19" -e "<a href="http://www.anvato.com/candidates/Galina">http://www.anvato.com/candidates/Galina</a>"  -X GET <a href="https://s3.amazonaws.com/anvato-resumes/candidates/2016_02/Galina_56c3a502af6fe">https://s3.amazonaws.com/anvato-resumes/candidates/2016_02/Galina_56c3a502af6fe</a> -o mygettext.html</p>
+
+<h2>
+<a id="and-the-output-is" class="anchor" href="#and-the-output-is" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>And the output is</h2>
+
+<p>This document contains private instructions intended only for Galina (<a href="mailto:galina_abramova@yahoo.com">galina_abramova@yahoo.com</a>). If you are not Galina, please report this to <a href="mailto:jobs@anvato.com">jobs@anvato.com</a>.</p>
+
+<p>Congratulations for finding the instructions!</p>
+
+<p>We hope you'll send us your resume to our secret email address hashed below:
+870c314a857891cc14266771baeb58c6ea3481be75c428229c1fed2f7e075b1e9e6a37342bcd099  3bd61d6e85d90ecbe3ec472bbad2633361af1f445e00a7d539132d8a06d0da61a622dffbf192879
+54878cb6a7c13153375449138bd6bfafad7eb27b63a47a7981ebea8310f32144d6b4dfbeee6cf2b
+16c40baa05d3d56dc882d493416e3db4ce57a9ad67edd74996148bc80d1cdbdb105e88b0c9e2a405
+dbc72be38cb8df7e9e850e2b4d7c616db3b763174ea8bb628e79ee00ff13875327220f1aeb68 b08666712ac2eb56eba0fdf5df3fec192a0314d6fe0fd25b39d4d4e46a40e67348e437e6bf9d3
+7bb32361031c1e505fa340eb76cdbe999dc1e7fc14d299dc49776c63bc8865829bbf5930d647587
+8b07932502fae178c538a616a17290838ad1ceb5edfc08b43e0c059229a12ff68ac7a8094483884
+00db1ed5efb05ef0425b5d3638e4d2a844d88d905e4503b04e78c74cb14b634ade29fe3ee8a06fe
+f45a59c7376b1d1205c3632da0b74bf552659ae59b044b8fedb7fc8b25a48277eae943cdf084bc0
+daea2e156670fb48f8ee3baf2859343731732b745557b9f2ccdb88413375c26b27f78c76f5126b7
+f88a2b60347d232f822171b9ca6c04d</p>
+
+<p>First, we generated a series of string prefixes with lengths increasing by 2. For example, if our secret email address was <a href="mailto:helloworld@anvato.com">helloworld@anvato.com</a>, we would generate:
+he
+hell
+hellow
+hellowor
+...
+<a href="mailto:helloworld@anvato.com">helloworld@anvato.com</a></p>
+
+<p>Then, for every prefix s, we computed the following hash J:
+md5(md5(e) + s + md5(s))        [where + is the string concatenation operator and e is your email address].
+Finally, we concatenated all hash strings J to form the long hash above!</p>
+
+<p>For example, for <a href="mailto:helloworld@anvato.com">helloworld@anvato.com</a>,
+we would compute:
+md5(md5('<a href="mailto:galina_abramova@yahoo.com">galina_abramova@yahoo.com</a>') + 'he' + md5('he')) + 
+md5(md5('<a href="mailto:galina_abramova@yahoo.com">galina_abramova@yahoo.com</a>') + 'hell' + md5('hell')) + 
+md5(md5('<a href="mailto:galina_abramova@yahoo.com">galina_abramova@yahoo.com</a>') + 'hellow' + md5('hellow')) + 
+...</p>
+
+<p>For the sake of simplicity, you can assume that our email address only contains alphanumeric characters and these 4 characters: _.@+</p>
+
+<p>After solving the challenge, please email your resume and your solution to the secret email address that you decoded.</p>
+
+<p>Good Luck!</p>
+      </section>
+    </div>
+
+    <!-- FOOTER  -->
+    <div id="footer_wrap" class="outer">
+      <footer class="inner">
+        <p class="copyright">Anvato Hidden Email maintained by <a href="https://github.com/github220494">github220494</a></p>
+        <p>Published with <a href="https://pages.github.com">GitHub Pages</a></p>
+      </footer>
+    </div>
+
+    
+
+  </body>
+</html>
